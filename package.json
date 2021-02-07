@@ -1,0 +1,24 @@
+{
+  "name": "reading_list_project",
+  "version": "1.0.0",
+  "description": "INTRO:\r If you are an avid reader, you might have an extensive READING LIST. A LIST that is continously added to and updated as you run across mentions of good books to read.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adospinoiu/Reading_List_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adospinoiu/Reading_List_Project/issues"
+  },
+  "homepage": "https://github.com/adospinoiu/Reading_List_Project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
