@@ -11,4 +11,4 @@ app.use(express.static("public"));
 app.use(morgan('tiny'));
 
 // Start up the server
-app.listen(PORT, () => console.log('Listening at http://localhost:${PORT}'));
+app.listen(PORT, () => console.log(`Listening at http://localhost:${PORT}`));
